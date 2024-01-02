@@ -1,0 +1,26 @@
+testGroup1:
+  testStringConfig: "string"
+  testIntConfig: "123"
+  testLongConfig: "123456789"
+  testBoolConfig: "true"
+  testDoubleConfig: "123.456"
+  testEnumConfig: "ENUM_VALUE_1"
+  testStringListConfig: ["string1", "string2", "string3"]
+
+testGroup2:
+  testUrl:
+    prefix: "https"
+    hostname: "airfoil.io"
+    port: 8080
+    path: "chord-line"
+  testUrlWithoutPort:
+    prefix: "https"
+    hostname: "airfoil.io"
+    path: "chord-line"
+  testUrlWithoutPath:
+    prefix: "https"
+    hostname: "airfoil.io"
+    port: 8080
+  testUrlWithoutPortOrPath:
+    prefix: "https"
+    hostname: "airfoil.io"
